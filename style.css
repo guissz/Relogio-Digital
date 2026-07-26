@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-grey: #BDBDBD;
+    --color-blue1: #96DBFF;
+    --color-blue2: #61C9FF;
+    --color-blue3: #0AABFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: radial-gradient(var(--color-blue1), var(--color-blue2), var(--color-blue3));
+    font-family: 'Roboto', sans-serif;
+    gap: 3rem
+}
+
+#data {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.relogio {
+    border-radius: 15px;
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+    box-shadow: 5px 5px 15px 0px var(--color-white);
+    background-color: var(--color-black);
+}
+
+.relogio div {
+    background-color: var(--color-grey);
+    width: 200px;
+    height: 180px;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#horas, #minutos, #segundos {
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.tempo {
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
